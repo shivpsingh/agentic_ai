@@ -1,0 +1,227 @@
+# =============================================================================
+# Python
+# =============================================================================
+
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Package managers
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checkers / linters / formatters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# pyenv / local Python version overrides (keep .python-version tracked if desired)
+# .python-version
+
+# =============================================================================
+# Secrets & credentials — never commit
+# =============================================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+*credentials*.json
+*serviceaccount*.json
+*-secret.*
+secrets/
+.secrets/
+
+# =============================================================================
+# Agentic AI / LLM applications
+# =============================================================================
+
+# Model & embedding caches
+.cache/
+.huggingface/
+transformers_cache/
+.sentence_transformers/
+.openai/
+.anthropic/
+.litellm/
+.tiktoken/
+
+# Vector stores & agent memory
+.chroma/
+chroma_db/
+.faiss/
+.qdrant/
+.pinecone/
+.weaviate/
+milvus/
+vectordb/
+vectorstore/
+embeddings/
+
+# Agent frameworks & orchestration
+.langchain/
+.langgraph/
+.langsmith/
+.llamaindex/
+.crewai/
+.autogen/
+.agents/
+agent_memory/
+agent_state/
+checkpoints/
+conversation_logs/
+session_data/
+thread_data/
+
+# MCP (Model Context Protocol) local artifacts
+.mcp/
+mcp_cache/
+mcp_logs/
+
+# Experiment tracking & observability
+wandb/
+mlruns/
+mlflow/
+.neptune/
+.comet/
+langfuse/
+phoenix/
+.traces/
+telemetry/
+
+# Local model weights & artifacts (often large)
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.mlmodel
+
+# Runtime data & uploads
+data/uploads/
+uploads/
+app/data/uploads/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# =============================================================================
+# IDE & editor
+# =============================================================================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# OS
+# =============================================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =============================================================================
+# Cursor / local tooling preferences
+# =============================================================================
+
+.cursor
+.cursor/skills/deployer-skills/.update-deferred
+
+# =============================================================================
+# Docker (local overrides only; keep Dockerfile tracked)
+# =============================================================================
+
+docker-compose.override.yml
+.docker/
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+*.bak
+*.orig
+*.rej
+node_modules/
+data/*.csv
+data/*.text
+data/*.json
